@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Ticket Booking</title>
+  <link href="book.css" rel="stylesheet" >
+  <script src="book.js"></script>
+</head>
+<body>
+  <ul>
+    <li><a id="active" href="keerti.html">Home</a></li>
+    <li><a href="travel.html">Travel</a></li>
+    <li><a href="book.html">Book now</a></li>
+    <li><a href="about.html">About</a></li>
+  </ul>
+  
+
+  <h1>Destination Diaries</h1>
+    
+    
+  <form class="bookingForm">
+    <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="from">From:</label><br>
+    <input type="text" id="from" required><br><br>
+
+    <label for="destination">Destination:</label><br>
+    <input type="text" id="destination" required><br><br>
+    
+    <label for="date">Date:</label><br>
+    <input type="date" id="date" required><br><br>
+    
+    
+    <label for="passengers">Number of Passengers:</label><br>
+    <input type="number" id="passengers" required><br><br>
+    
+    
+    <button id="button" onclick="onpress()">Book Tickets</button>
+  </form>
+  
+</body>
+</html>
